@@ -2,9 +2,10 @@
 A quick app to test memcached connectivity and basic operations.
 
 ## To use:
-- Update the memcached server location(s) in app.js, like:
+- Update the memcached server location(s), like:
 ```js
+//app.js
 var memcached = new Memcached("192.168.6.25:11211");
 ```
-- install dependencies w/ `npm install`
-- run w/ `node app.js`
+- `npm install` to install dependencies
+- `node app.js` to run
